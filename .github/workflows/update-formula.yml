@@ -31,7 +31,7 @@ jobs:
         id: shas
         run: |
           V="${{ steps.version.outputs.version }}"
-          BASE="https://github.com/baselayer-id/baselayer/releases/download/cli-v${V}"
+          BASE="https://github.com/baselayer-id/bl/releases/download/v${V}"
 
           # Retry with backoff — GitHub needs a moment to make release assets
           # downloadable after the release is published.
