@@ -7,18 +7,18 @@
 class Bl < Formula
   desc "Terminal interface to your Baselayer knowledge vault"
   homepage "https://github.com/baselayer-id/bl"
-  version "0.1.0-rc3"
+  version "0.1.0-rc4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/baselayer-id/bl/releases/download/v#{version}/bl-aarch64-apple-darwin.tar.gz"
-      sha256 "d1da42386c72fcf889b0c9bf1058f7dbfd413c94ea0495c51bf91d5fe4f04b18"
+      sha256 "e586e978716c01dda17940991a5597d56f5aaa0637526db4a0d5317630600176"
     end
 
     on_intel do
       url "https://github.com/baselayer-id/bl/releases/download/v#{version}/bl-x86_64-apple-darwin.tar.gz"
-      sha256 "e6fb89a9c589502c218446253fbd52dfe58495990eb21ad3f34bb2d4be0b150c"
+      sha256 "261a856be9733047c33a099363d28260e6941b730983595870862c4fb21c90eb"
     end
   end
 
